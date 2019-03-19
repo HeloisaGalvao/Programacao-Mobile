@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView calculo;
     private String display = "";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

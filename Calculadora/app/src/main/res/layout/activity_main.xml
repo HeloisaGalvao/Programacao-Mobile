@@ -28,7 +28,7 @@
         android:textColor="#ffff"
         android:textSize="40sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickUndo" />
 
     <Button
         android:id="@+id/btn_inverte_sinal"
@@ -41,7 +41,7 @@
         android:textColor="#ffff"
         android:textSize="40sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickSignal" />
 
     <Button
         android:id="@+id/btn_porcentagem"
@@ -54,7 +54,7 @@
         android:textColor="#ffff"
         android:textSize="40sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickOperator" />
 
     <Button
         android:id="@+id/btn_dividir"
@@ -67,7 +67,7 @@
         android:textColor="#ffff"
         android:textSize="40sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickOperator" />
 
     <Button
         android:id="@+id/btn_7"
@@ -117,7 +117,7 @@
         android:textColor="#ffff"
         android:textSize="30sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickOperator" />
 
     <Button
         android:id="@+id/btn_4"
@@ -167,7 +167,7 @@
         android:textColor="#ffff"
         android:textSize="60sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickOperator" />
 
     <Button
         android:id="@+id/btn_1"
@@ -217,7 +217,7 @@
         android:textColor="#ffff"
         android:textSize="40sp"
         android:background="#363636"
-        android:onClick="onClickNumber" />
+        android:onClick="onClickOperator" />
 
     <Button
         android:id="@+id/btn_0"
@@ -252,7 +252,7 @@
         android:layout_marginTop="0dp"
         android:layout_toRightOf="@id/btn_ponto"
         android:background="#FFA500"
-        android:onClick="onClickNumber"
+        android:onClick="onClickEqual"
         android:text="="
         android:textColor="#ffff"
         android:textSize="50sp" />
